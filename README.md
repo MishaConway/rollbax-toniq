@@ -24,7 +24,7 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 
     ## Configuration
 
-    Add it to your `Toniq Jobs` by including it and renaming your perform function to perform_x like below:
+    Add it to your `Toniq Jobs` by including it and renaming your perform function to perform_ex like below:
 
     ```elixir
     defmodule Jobs.DoSomething do
