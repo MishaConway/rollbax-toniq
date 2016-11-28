@@ -1,6 +1,6 @@
 # RollbaxToniq
 
-Integrates Rollbax with Toniq so that is logs any worker exceptions to rollbar.
+Integrates Rollbax with Toniq so that it logs any worker exceptions to rollbar.
 
 ## Installation
 
@@ -31,7 +31,7 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
       use Toniq.Worker, max_concurrency: 10
       use RollbaxToniq
 
-      def perform_ex(chunk_id: chunk_id) do
+      def perform_ex(thing_id: thing_id) do
         # do stuff...
       end
     end
