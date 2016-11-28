@@ -19,7 +19,7 @@ defmodule RollbaxToniq.Mixfile do
     licenses: ["MIT"],
     links: %{github: "https://github.com/MishaConway/rollbax-toniq"},
     maintainers: ["Misha Conway"],
-    files: ~w(mix.exs README.md CHANGELOG.md lib)]
+    files: ~w(mix.exs README.md lib)]
   end
 
   # Configuration for the OTP application
